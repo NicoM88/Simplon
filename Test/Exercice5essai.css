@@ -19,7 +19,7 @@
     display: inline;
     background-color: green;
     float: left;
-    clear: right;
+    clear:right;
     width: 32.9%;
     margin: 2px;
 }
@@ -53,7 +53,6 @@
     display: inline;
     background-color: green;
     float: left;
-    clear: right;
     width: 32.9%;
     margin: 2px;
 }
@@ -77,14 +76,14 @@
 }
 
 .c5{
-    display: inline-block;
+    display: inline;
     float: left;
     width: 100%;
     margin: 0px;
 }
 
 .fright50{
-    display:inline;
+    display:inline-block;
     float:right;
     width: 49.6%;
     background-color:dodgerblue;
@@ -103,7 +102,6 @@
     display: inline;
     background-color: dodgerblue;
     float: right;
-    clear: left;
     width: 33.02%;
     margin: 2px;
 }
@@ -127,8 +125,7 @@
     display: inline;
     background-color: dodgerblue;
     float: right;
-    clear: left;
-    width: 32.9%;
+    width: 33.02%;
     margin: 2px;
 }
 
@@ -159,7 +156,7 @@
 
 
 .c10{
-    display: flex;
+    display: inline;
     width: 100%;
     margin: 0px;
 }
@@ -168,4 +165,70 @@
     display: flex;
     width: 100%;
     margin: 0px;
+}
+
+.c12{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.c130   {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.clearfix{
+    display: flex;
+    justify-content: center;
+    background-color: violet;
+    width: 100%;
+    margin: 3px;
+}
+
+.c15{
+    display: inline;
+    width: 100%;
+
+}
+
+.c151{
+    display: inline;
+
+}
+
+.c152{
+    display: flex;
+
+}
+
+.c16{
+    display: block;
+}
+
+.c160{
+    display: block;
+}
+
+.c174{
+    clear: right ;
+
+}
+
+
+.c180{
+    display: inline;
+    clear: left;
+}
+.c17{
+    display: ;
+}
+
+.c18{
+    display:;
+
+
 }
