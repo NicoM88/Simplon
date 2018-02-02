@@ -1,0 +1,171 @@
+.fleft50{
+    display: inline;
+    background-color: green;
+    float: left;
+    clear: right;
+    width: 49.6%;
+    margin: 2px;
+
+}
+
+.c1{
+    display: inline;
+    float: left;
+    width: 100%;
+    margin: 2px;
+}
+
+.fleft33 {
+    display: inline;
+    background-color: green;
+    float: left;
+    clear: right;
+    width: 32.9%;
+    margin: 2px;
+}
+
+.c3{
+    display: inline;
+    background-color: coral;
+    float: left;
+    width: 100%;
+    margin: 2px;
+    border: dashed blueviolet 10px;
+}
+
+.fleft25{
+    display: inline;
+    float: left;
+    background-color: green;
+    width: 24.6%;
+    margin: 2px;
+}
+
+.c4{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.fleft333{
+    display: inline;
+    background-color: green;
+    float: left;
+    clear: right;
+    width: 32.9%;
+    margin: 2px;
+}
+
+.fleft500{
+    display: inline;
+    float: left;
+    background-color: green;
+    width: 49.5%;
+    margin: 2px;
+
+}
+
+.fleft250{
+    display: inline;
+    background-color: green;
+    float: left;
+    width: 24.6%;
+    margin: 2px;
+
+}
+
+.c5{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin: 0px;
+}
+
+.fright50{
+    display:inline;
+    float:right;
+    width: 49.6%;
+    background-color:dodgerblue;
+    margin: 2px;
+    clear: left;
+}
+
+.c6{
+    display: inline;
+    float: right;
+    width: 100%;
+    margin: 2px;
+}
+
+.fright33{
+    display: inline;
+    background-color: dodgerblue;
+    float: right;
+    clear: left;
+    width: 33.02%;
+    margin: 2px;
+}
+
+.fright25{
+    display: inline;
+    background-color: dodgerblue;
+    float: right;
+    clear: left;
+    width: 24.67%;
+    margin: 2px;
+}
+
+.c8{
+    display: inline-block;
+    float: right;
+    width: 100%;
+}
+
+.fright333{
+    display: inline;
+    background-color: dodgerblue;
+    float: right;
+    clear: left;
+    width: 32.9%;
+    margin: 2px;
+}
+
+.fright500{
+    display: inline;
+    float: right;
+    background-color: dodgerblue;
+    width: 49.5%;
+    margin: 2px;
+
+}
+
+.fright250{
+    display: inline;
+    background-color: dodgerblue;
+    float: right;
+    width: 24.6%;
+    margin: 2px;
+
+}
+
+.c9{
+    display: inline-block;
+    float: right;
+    width: 100%;
+    margin: 0px;
+}
+
+
+.c10{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}
+
+.c11{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}

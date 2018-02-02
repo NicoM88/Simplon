@@ -1,0 +1,75 @@
+#fleft50{
+    display: block;
+    background-color: green;
+    float: left;
+    width: 500px;
+    margin: 2px;
+}
+
+#fleft33 {
+    display: block;
+    background-color: green;
+    float: left;
+    width: 500px;
+    margin: 2px;
+}
+
+.c3{
+    display: block;
+    background-color: coral;
+    float: right;
+    width: 50%;
+    margin: 3px;
+    border: 0px;
+}
+
+#fleft25{
+    display: block;
+    background-color: greenyellow;
+    float: left;
+    width: 500px;
+    margin: 2px;
+    }
+
+#fright50{
+    display: block;
+    background-color: blue;
+    float: right;
+    width: 500px;
+    margin: 4px;
+}
+
+.c4{
+    display: block;
+    background-color: orange;
+    float: left;
+    width: 0px;
+    margin: 0px;
+}
+
+#blanc{
+    display: block;
+    background-color: blanchedalmond;
+    float: right;
+    width: 0px;
+    margin: 0px;
+}
+
+.c2{
+    display: block;
+    background-color: gold;
+    float: right;
+    width: 50%;
+    margin: 3px;
+    border: 0px;
+}
+
+.c6{
+    display: block;
+    background-color: gold;
+    float: right;
+    width: 50%;
+    margin: 3px;
+    border: 0px;
+
+}
