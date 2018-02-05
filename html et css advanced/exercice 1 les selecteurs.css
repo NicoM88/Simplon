@@ -1,0 +1,20 @@
+*{
+    border: 2px solid black ;
+    padding: 5px;
+    margin: 5px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: #50f3ff;
+}
+
+.test p {
+    color: #54a3ff;
+}
+
+.c1{
+    display: flex;
+    justify-content: space-between;
+}
