@@ -56,7 +56,10 @@ une_fonction(1, 2);
 resultat = une_fonction(1, 2);
 
 
+
+
 // function du langage
+
 // alert(message) affiche une popup qui contient le paramètre "message"
 // prompt(message) affiche le paramètre "message" et demande à l'internaute de saisir une données
 // console.log(variable) affiche le contenu de la variable dans la console
@@ -114,6 +117,31 @@ console.log(multi);// on demande d'écrire dans la console le résultat du produ
 console.log(multi2);// et le résultat du produit multi2
 
 
+
+//exercice supplementaire
+//céer une fonction qui calcule la somme de 2 nombres
+
+function somme(num3,num4) {//je definis la fonction
+    const résultatsomme = (num3+num4);// je donne la fomule
+    return résultatsomme
+}
+console.log(somme(10,8))
+console.log(somme(8,8))
+//fin de l'exercice
+
+//erxercice supplemenetaire
+// exemple de produit logique et simple
+function multiplier (num1,num2){ // je définis la fonction et la nome
+    const résultatmulti = (num1*num2); // je donne la formule
+    return résultatmulti;
+
+}
+console.log(multiplier(5,3))// je donne les valeurs et je demande d'écrire le résultat
+                                // dans la console
+console.log(multiplier(10,2))
+//fin de l'exercice
+
+
 // créer une fonction qui demande le nom et prénom et qui l'affiche dans la console
 
 function demander_nom_prenom() {
@@ -138,11 +166,27 @@ function demander_nom_prenom() {
 //demander_nom_prenom();
 
 
+
+//exercice supplementaire
+// fonction demander code postal et ville dans fenetre popup
+//je nomme et définis ma fonction
+function demander_code_postal_et_ville() {
+    //je donne ma formule, demande fenetre popup et donne le texte
+    const code_postal = prompt("quel est votre code postal ?");// premiere fenetre popup
+    const ville = prompt("quelle est votre ville ?");// deuxieme fenetre popup
+
+//je demande a écrire la réponse dans la console avec un espace entre les 2 résultats
+    console.log(code_postal+"  "+ville);
+}
+
+demander_code_postal_et_ville(); //je donne l'ordre d'ouvrir les fenetres popup
+//fin de l'exercice
+
 // créer une fonction qui demande nom + prénom + age + ville et qui l'affiche dans la console
 
 function demander_nom_prenom_age_ville() {
 
-    const nom = prompt ("quel est votre nom ?");
+    const nom = prompt ("quel est votre nom ?"); //prompt permet d'ouvrir une fenetre popup
     const prenom = prompt ("quel est votre prénom ?");
     const age = prompt ("quel est votre âge ?");
     const ville = prompt ("quel est votre ville ?");
