@@ -20,15 +20,16 @@ function addProduct(code) {
         // je récupère le produit  i
         const product = productList[i];
 
-        // est ce que le produit à le code demandé
+        // est ce que le produit a le code demandé
         if (product.code === code) {
+            if (product.total < 5){ // condition pas plus de 5 produits
             product.total++;
+        }
         }
 
     }
-
-    console.log(productList);
-
+    console.clear();
+    console.table(productList);
 
     displayCaddie();
 }
@@ -38,11 +39,22 @@ function addProduct(code) {
  */
 function deleteProduct(code) {
 
-    // chercher l'objet correspondant à ce code
+    for (let i =  0; i < productList.length; i++) {
 
-    // modifier la propriété nombre de cet objet
-    // pour représenter le fait d'avoir un élément de moins sélectionné
+        // chercher l'objet correspondant à ce code
+        const product = productList[i];
 
+        // modifier la propriété total de cet objet
+        if (product.code === code) {
+            if (product.total > 0) {
+                product.total--;
+            }
+
+        }
+        // pour représenter le fait d'avoir un élément de moins sélectionné
+    }
+    console.clear();
+    console.table(productList);
     displayCaddie();
 }
 
@@ -52,5 +64,22 @@ function deleteProduct(code) {
 function displayCaddie() {
     let list = "";
 
-    document.getElementById("resultat").innerHTML = list;
+
+        // je parcours tous les elements du panier
+        for (let i =  0; i < productList.length; i++) {
+            // je récupère le produit  i
+            const product = productList[i];
+
+            // si l'element courant a été ajouté au panier
+            // alors on ajoute " X code," à la variable list
+
+            if ( product.total > 0){
+            list = list + product.total; // ou  list + = product.total + " " + product.name + ", ";
+            list = list + " ";
+            list = list + product.name;
+            list = list + "," + "  ";
+            }
+        }
+
+            document.getElementById("resultat").innerHTML = list;
 }
