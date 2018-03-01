@@ -88,3 +88,9 @@ fieldset {
     display: block;
     clear: both;
 }
+
+input ~ div {
+    margin-left: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
