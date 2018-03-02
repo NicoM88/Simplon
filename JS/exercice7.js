@@ -77,26 +77,26 @@ document.addEventListener("DOMContentLoaded", function(save){
 // récupérer le deuxieme input
 
 
-        // const subscription_password_input =  document.getElementById("subscription_password")
-        //
-        // subscription_password.addEventListener("keyup", function (event) {
-        //     // => si saisie entre 4 et 8 caractères
-        //     const saisie1 = subscription_password_input.value;
-        //     if (saisie1.length >= 4 && saisie1.length <= 8) {
-        //         //console.log("c'est good mec");
-        //         // console.log('coucou') // écrit coucou dans la console
-        //         // vérifier la longueur  de la saisie
-        //         // console.log(subscription_password.value);
-        //         // ajouter la class "success" sur le input
-        //         subscription_password_input.classList.add("success");// valide le champs en vert
-        //         subscription_password_input.classList.remove("error");
-        //     } else {
-        //         subscription_password_input.classList.add("error"); // valide le champs en rouge
-        //         subscription_password_input.classList.remove("success");
-        //         //console.log("c'est pas bon");
-        //     }
-        //
-        // });
+        const subscription_password_input =  document.getElementById("subscription_password")
+
+        subscription_password.addEventListener("keyup", function (event) {
+            // => si saisie entre 4 et 8 caractères
+            const saisie1 = subscription_password_input.value;
+            if (saisie1.length >= 4 && saisie1.length <= 8) {
+                //console.log("c'est good mec");
+                // console.log('coucou') // écrit coucou dans la console
+                // vérifier la longueur  de la saisie
+                // console.log(subscription_password.value);
+                // ajouter la class "success" sur le input
+                subscription_password_input.classList.add("success");// valide le champs en vert
+                subscription_password_input.classList.remove("error");
+            } else {
+                subscription_password_input.classList.add("error"); // valide le champs en rouge
+                subscription_password_input.classList.remove("success");
+                //console.log("c'est pas bon");
+            }
+
+        });
 
 
 
