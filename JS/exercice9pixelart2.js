@@ -8,7 +8,7 @@ console.log('fichier js bien chargé');
 
 // code executé lorsque le DOM est chargé
 document.addEventListener("DOMContentLoaded", function (event) {
-    console.log('execution du code js');
+        console.log('execution du code js');
 
     var picture = [
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
