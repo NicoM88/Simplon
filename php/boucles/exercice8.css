@@ -1,0 +1,13 @@
+.blanc {
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+.noir {
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: #000000;
+}
