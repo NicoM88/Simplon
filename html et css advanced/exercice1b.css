@@ -1,0 +1,49 @@
+/* je definis mes formes primaires */
+div {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 33, 33, 0.4);
+    border-radius: 20%;
+    margin: 20px 0px 0px 100px;
+    float: left;
+}
+
+/* je selectionne le 1er square*/
+.square:nth-child(1) {
+    box-shadow: 10px 10px 10px 10px #1f7199;
+
+}
+
+/*je definis le deuxieme et le debut du troisieme
+avec les meme propriétées ( et hover souris qui bouge
+dessus (inset c'est inserer) (outset c'est au debut)
+box shadow horizontalpx verticalpx opacitépx taillepx couleur*/
+.square.inset {
+    box-shadow: inset 0px 0px 20px 20px green;
+}
+
+.square.inset.outset {
+    box-shadow: inset 0px 0px 20px 20px green,
+    10px 10px 10px 10px #1f7199;
+}
+
+/*inset blue vert jaune orange*/
+/* et ouset violet noir*/
+.square.psychedelik {
+    box-shadow: inset 10px 10px 10px 10px #1f7199,
+                inset  0px 0px 20px 20px green,
+                inset  0px 0px 20px 30px yellow,
+                inset  0px 0px 20px 45px orange,
+                       10px 10px 20px 10px purple;
+;
+
+}
+
+/*je definis les ronds*/
+.round {
+    border-radius: 80px;
+}
+
+.round sized {
+
+}

@@ -1,0 +1,157 @@
+/** écrire les règles CSS des consignes indiquées dans la partie HTML **/
+
+/* nth-child(odd|even) */
+
+/*afficher une ligne sur 2 en fond #DDD*/
+tr:nth-child(2n){
+    background-color: #DDD;
+
+}
+
+/*et au survol de la
+ligne mettre la première cellule
+de la ligne en fond #DBB  */
+tr:hover td:first-child {
+    background-color: #DBB;
+}
+
+ /*Mettre le titre de la fable en gras et taille: 16px
+ , -->*!*/
+
+p:first-line{
+    font-weight: bold;
+
+}
+/*retourner à la ligne après chaque phrase-->*/
+/*on met tout à la ligne avec toutes les span
+ */
+p span{
+    display: block;
+}
+
+/*mettre la première lettre de chaque phrase en rouge,
+*gras et 20px*/
+p span::first-letter{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* deja efinir une grille*/
+#board{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ccc;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+#board div{
+    width: 25%;
+    height: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+}
+/*premiere case en #1DE58B,*/
+/*#board :first-child{*/
+    /*background-color: #1DE58B;*/
+    /*height: 20px;*/
+    /*width: 20px;*/
+    /*display: ;*/
+/*}*/
+/*!*deuxieme case en #0566F1,*!*/
+/*#board{*/
+    /*background-color: #0566F1;*/
+    /*height: 30px;*/
+    /*width: 30px;*/
+    /*display: inline-block;*/
+/*}*/
+/*premiere case en #1DE58B,*/
+#board div:nth-child(4n+1){
+    background-color: #1DE58B;
+}
+/*deuxieme case en #0566F1,*/
+#board div:nth-child(4n+2){
+    background-color: #0566F1;
+}
+/*troisième case en #F29E09,*/
+#board div:nth-child(4n+3){
+    background-color: #F29E09;
+}
+/*quatrième case #9DE042 ,*/
+#board div:nth-child(4n+4){
+    background-color: #9DE042;
+}
+
+/*<!-- afficher le caractère "➚" en fin de lien pour
+les liens qui pointent ailleurs que sur
+http://monsite.com/ -->*/
+/* on peut lire autrement la consigne : ne pas afficher
+pour les liens vers mon site
+ */
+/*creer le pseudo element*/
+
+ul li a[href*="monsite.com"]::after{
+    content: " ➚";
+}
+
+/* dessiner un coeur rouge : premier carré 100px x 100px
+ avec les pseudo elements
+ voir : http://front.rocks/assets/img/04-html5-css3-bases/heart-outline.jpg
+-->*/
+
+/*en premier construir en carre et ensuite deux coeurs*/
+/*#heart{*/
+    /*height: 200px;*/
+    /*width:  200px;*/
+    /*transform: rotate(45deg);*/
+    /*background-color: red;*/
+    /*!*margin: 80px 0px 30px 150px;!*hautpx droitepx baspx gauchepx*!*!*/
+    /*position: relative;*/
+    /*margin: 50px;*/
+/*}*/
+/*#heart::after{*/
+    /*content: '';*/
+    /*width: 80px;*/
+    /*height: 80px;*/
+    /*border-radius: 60px;*/
+    /*position: absolute;*/
+    /*top: -25%;*/
+    /*background-color: #9DE042;*/
+
+/*}*/
+/*#heart::before{*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*width: 80px;*/
+    /*height: 80px;*/
+    /*border-radius: 50%;*/
+    /*top: -50%;*/
+    /*background-color: #50f3ff;*/
+/*}*/
+#heart {
+    position:relative;
+    width:100px;
+    height:100px;
+    margin:10% auto 0 auto;
+    background: red;
+    transform: rotate(45deg);
+}
+#heart:before,
+#heart:after {
+    position:absolute;
+    content: "";
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    background:red;
+    top: -50%;
+    left: 0;
+}
+#heart:after {
+    left: -50%;
+    top: 0;
+}
+
+animateTransform scale
+                                                           /*voir : http://front.rocks/assets/img/04-html5-css3-bases/heart-outline.jpg*/
